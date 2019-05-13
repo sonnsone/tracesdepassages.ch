@@ -74,3 +74,13 @@
 @import '../node_modules/kanbasu/src/scss/components/container';
 @import '../node_modules/kanbasu/src/scss/components/pusher';
 @import '../node_modules/kanbasu/src/scss/components/table-responsive';
+
+
+body {
+    background-color: $brand-color;
+}
+
+.container {
+    border:10px solid $alt-color;
+    background-color:white;
+}
