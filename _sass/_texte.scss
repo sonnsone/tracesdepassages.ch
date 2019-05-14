@@ -1,0 +1,19 @@
+.title {
+ font-style:heavy;
+ font-size:$font-size-large;
+}
+
+.brand-color {
+    color:$brand-color;
+    a {
+        color:$brand-color;
+    }
+}
+
+.alt-color {
+    color:$alt-color;
+}
+
+.text {
+    font-style:normal;
+   }
