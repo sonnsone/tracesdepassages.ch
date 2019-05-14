@@ -32,7 +32,7 @@ facebook:
 google_site_verification: googleddcee30cf477c8ba
 ga: Google Analytics ID
 
-baseurl: "tracesdepassages.ch"
+baseurl: ""
 url: "https://sonnsone.github.io"
 
 exclude:
