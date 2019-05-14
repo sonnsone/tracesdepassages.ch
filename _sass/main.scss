@@ -83,8 +83,13 @@ body {
     background-color: $brand-color;
 }
 
-.container {
+.container--frame {
     border:10px solid $alt-color;
-    //background-color:white;
     padding:80px;
+}
+
+.box--default {
+    border:10px solid $alt-color;
+    padding:10px;
+    background-color:transparent;
 }

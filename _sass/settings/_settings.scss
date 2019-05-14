@@ -31,12 +31,12 @@ $font-family-default:               'base-900-sans', 'Roboto', 'Oxygen', 'Ubuntu
 
 $font-size-default:                 16px;
 $font-size-small:                   .75rem;
-$font-size-large:                   1.5rem;
+$font-size-large:                   1.3rem;
 
-$line-height-default:               1.45;
+$line-height-default:               1.35;
 
 $text-color:                        $alt-color-lighter;
-$link-color:                        $brand-color;
+$link-color:                        $alt-color;
 $muted-color:                       transparentize($text-color, .4);
 
 
