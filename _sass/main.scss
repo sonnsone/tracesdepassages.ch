@@ -99,3 +99,14 @@ body {
     padding:10px;
     background-color:transparent;
 }
+
+.brand-color {
+    color:$brand-color;
+    a {
+        color:$brand-color;
+    }
+}
+
+.alt-color {
+    color:$alt-color;
+}
