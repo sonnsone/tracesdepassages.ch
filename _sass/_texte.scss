@@ -18,3 +18,9 @@ margin-bottom:-8px;
 .text-black {
     color:black;
    }
+
+.intervenant::after {
+        content: ' – ';
+        margin-right:4px;
+        color:$alt-color;
+}
