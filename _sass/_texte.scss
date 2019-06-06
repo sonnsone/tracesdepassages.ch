@@ -19,6 +19,14 @@ margin-bottom:-8px;
         color:$alt-color;
 }
 
+.uppercase {
+    text-transform: uppercase;
+}
+
+i {
+    color: $alt-color;
+}
+
 .vertical {
     position: relative;
     writing-mode: vertical-rl;
@@ -28,10 +36,9 @@ margin-bottom:-8px;
     top:0;
 }
 
-.uppercase {
-    text-transform: uppercase;
-}
-
-i {
+.vertical--border {
+    border: 2px solid $alt-color;
     color: $alt-color;
+    padding: 7px;
+    border-radius: 2px;
 }
