@@ -27,7 +27,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#FFFFFF">
 </head>
 
-<body>
+<body style="background-color: #2a78a6; background-image: url('https://www.transparenttextures.com/patterns/scribble-light.png');">
     <script type="text/javascript">
         var github_url = 'https://sonnsone.github.io/tracesdepassages.ch';
         var current = window.location.href;
@@ -80,8 +80,15 @@
         </div>
 
 
+
             {{ content }}
 
+
+        <div class="grid grid--center mrgt++">
+            <div class="w-1/2 sm-w-3/4 md-w-1/2 lg-w-1/2 grid__item">
+                <a href="{{ '/' | absolute_url }}"><img class="logo img-responsive" src="{{ '/files/face-sud.png' | absolute_url }}"></a>
+            </div>
+        </div>
 
         <div class="grid grid--center mrgt++">
             <a href="https://andco.ch" target="_blank"><div class="grid__item w-1/6 text-center"><p class="btn btn--primary btn--small">designed by Studio andco</p></div></a>
