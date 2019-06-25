@@ -7,7 +7,7 @@ layout: pages
     <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
         <div class="box box--primary mrgt+">
             <p class="title alt-color capitalize">{{ page.name }}</p>
-            <p>{{ page.portrait }}</p>
+            {{ content }}
             <p><a  class="alt-color"href="{{ artistes.site }}">{{ page.site }}</a></p>
         </div>
     </div>
@@ -25,9 +25,9 @@ layout: pages
 
 
 {% for image in site.static_files %}
-    {% if image.path contains '/files/projets' %}
+    {% if image.path contains page.fiche %}
     <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-            <img class="img-responsive" src="{{ image.path | absolute_url }}{{ artistes.nomprojet }}" alt="image" />
+            <img class="img-responsive" src="{{ image.path | absolute_url }}" alt="image" />
     </div>
     {% endif %}
 {% endfor %}
