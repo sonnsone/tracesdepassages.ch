@@ -13,6 +13,10 @@ margin-bottom:-8px;
     color:black;
    }
 
+.text-white {
+       color: white;
+   }
+
 .intervenant::after {
         content: ' – ';
         margin-right:4px;
@@ -41,4 +45,9 @@ i {
     color: $alt-color;
     padding: 7px;
     border-radius: 2px;
+}
+
+a {
+    color:white;
+    text-decoration: none;
 }
