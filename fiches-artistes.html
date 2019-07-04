@@ -6,11 +6,10 @@ layout: pages
 
     {% for artistes in site.artistes %}
     <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-        <div class="box box--primary mrgt+">
-            <p class="title alt-color uppercase"><a href="{{ artistes.url }}">{{ artistes.nomprojet }}</a></p>
-            <p class="title alt-color capitalize"><a href="{{ artistes.url }}">{{ artistes.name }}</a></p>
-            </p><a class="texte-white" href="{{ artistes.url }}">{{ artistes.portrait }}</a></p>
-            <p><a  class="alt-color"href="{{ artistes.site }}">{{ artistes.site }}</a></p>
+        <div class="box box--primary mrgt">
+            <p class="title uppercase"><a class ="alt-color" href="{{ artistes.url }}">{{ artistes.nomprojet }}</a></p>
+            <p class="title alt-color capitalize mrgb"><a href="{{ artistes.url }}">{{ artistes.name }}</a></p>
+            {{ artistes.content}}
          </div>
     </div>
     {% endfor %}
