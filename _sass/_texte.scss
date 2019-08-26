@@ -2,6 +2,11 @@
 margin-bottom:-8px;
  font-style:heavy;
  font-size:$font-size-large;
+
+ .boxed {
+     background-color: $alt-color;
+     padding:5px;
+ }
 }
 
 .text-large {
@@ -13,13 +18,21 @@ margin-bottom:-8px;
     color:black;
    }
 
+.text-alt {
+    color:$alt-color;
+   }
+
 .text-white {
        color: white;
    }
 
+.text-margin {
+    margin-left: 30px;
+}
+
 .intervenant::after {
         content: ' – ';
-        margin-right:4px;
+        margin-right: 4px;
         color:$alt-color;
 }
 
