@@ -2,149 +2,20 @@
 layout: base
 ---
 
-<div class="box box--primary mrgt+">
-    <div class="grid">
-
-        <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">L’EXPOSITION</p>
-                <p>Des œuvres ludiques, méditatives ou plus angoissantes convoquant les sens du toucher, de l’ouïe, de l’odorat en plus du regard, de la danse, des performances et des interventions, qui disparaîtront avec l’immeuble.</p>
-                <p>L’espace investi comprend les appartements, les couloirs et les façades du bâtiment. Plus qu’un lieu d’exposition, le projet est une œuvre aux multiples facettes, éphémère à l’image de nos existences.</p>
-        </div>
-
-        <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">L’association</p>
-                <p>Notre collectif s’est organisé en association à but non lucratif. «&#8239;Sa durée de vie est éphémère. L’association sera dissoute une fois la barre d’immeuble démolie&#8239;». </p>
-        </div>
-
-        <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">Soutiens</p>
-                <a href="https://www.vd.ch/" target="_blank">
-                    <img class="logo logo--medium" src="{{ '/files/vaud.png' | absolute_url }}">
-                </a>
-                <a href="https://www.lausanne.ch/" target="_blank">
-                    <img class="logo logo--big" src="{{ '/files/lausanne.png' | absolute_url }}">
-                </a>
-                <a href="https://www.loro.ch/fr" target="_blank">
-                    <img class="logo logo--medium" src="{{ '/files/loro.png' | absolute_url }}">
-                </a>
-                <a href="http://www.ernst-goehner-stiftung.ch/index.php/fr" target="_blank">
-                    <img class="logo logo--big" src="{{ '/files/ernst.png' | absolute_url }}">
-                </a>
-
-                <p>en collaboration avec les <a href="https://www.sbb.ch/fr/">CFF</a> et la Maison de quartier sous-gare</p>
-        </div>
-
-        <div class="sm-w-1/1 md-w-1/2 lg-w-1/3 grid__item mrgt">
-            <ul class="list-inline">
-                <li>Suivez nous sur :</li>
-                <li><a href="https://www.facebook.com/tracesdepassages/" target="_blank"><img class="logo logo--small" src="{{ '/files/sn/facebook.png' | absolute_url }}"></a></li>
-                <li><a href="https://www.instagram.com/tracesdepassages/?hl=fr" target="_blank"><img class="logo logo--small" src="{{ '/files/sn/instagram.png' | absolute_url }}"></a></li>
-            </ul>
-    </div>
-
-    </div>
-</div>
 
 <div class="grid grid--center mrgt+">
-
-    <div class="sm-w-1/1 md-w-1/2 lg-w-1/4 grid__item mrgt">
+    <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
         <div class="box box--default">
-            <p class="title alt-color uppercase">Dons</p>
-            <p>Merci de votre soutien&#8239;!</p>
-
-            <p>Compte postal 15-161622-9<br>
-                IBAN: CH14 0900 000 15 16 1622 9</p>
+            <div class="video-container"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/VX9XYSeSNf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
         </div>
     </div>
-
-    <div class="sm-w-1/1 md-w-1/2 lg-w-1/4 grid__item mrgt">
-        <div class="box box--default">
-            <p class="title alt-color uppercase">Contact</p>
-            <p>Association Traces de Passages</p>
-            <address>
-                {{ site.title }}<br>
-                {{ site.street }}<br>
-                {{ site.zip }} {{ site.city }}<br>
-                {{ site.state }} - {{ site.country }}<br>
-                078 635 59 66
-                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </address>
-        </div>
-    </div>
-
 </div>
 
-    <div class="box box--primary mrgt+">
-        <div class="grid">
+{% include expo-description.html %}
 
-            <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">le Chantier</p>
-                <p>D’ici fin 2019, <i>une barre d’immeubles centenaires sera détruite pour faire de la place à la gare de Lausanne</i>, en pleine croissance. Ce démantèlement s’inscrit dans un projet immense qui verra la transformation progressive du quartier sous-gare.</p>
-                <p>Au cours de ce processus, des gens vont devoir quitter leur lieu de vie, modifier ce qu’ils imaginaient être leur destin pour satisfaire les exigences du changement. Ce quartier est de ceux auxquels on s’attache et on s’identifie, il leur manquera et eux lui manqueront aussi.</p>
-                <p>L’Histoire se chargera d’écrire l’épitaphe de ce lieu de vie et des souvenirs qu’il contient. Nous, de notre côté, voudrions ouvrir une parenthèse dans le chantier pour montrer son âme tant que c’est encore possible.</p>
-            </div>
+{% include contact.html %}
 
-            <div class="sm-w-1/1 md-w-1/2 lg-w-1/4 grid__item mrgt">
-                <p class="title alt-color uppercase">le Projet</p>
-                <p>C’est sous les platanes de la rue du Simplon, sur les terrasses, dans un des appartements voués à la destruction que des discussions sont nées sur la façon dont on pouvait prendre congé d’eux dans le respect. Elles ont engendré un projet artistique porté par un collectif qui s’est donné pour objectif de rendre hommage avec affection aux gens qui passent sans laisser de traces.</p>
-            </div>
-
-            <div class="sm-w-1/1 md-w-1/2 lg-w-1/4 grid__item mrgt">
-                <p class="title alt-color uppercase">les traces</p>
-                <p>En Suisse, la plupart des gens sont locataires. On passe sa vie entre des murs qui appartiennent à d’autres et qui seront réinvestis aussitôt qu’on aura disparu.</p>
-                <p>Quel dessin formeraient au sol les allées et venues quotidiennes des loca-taires s’ils avaient de la peinture sous les pieds&#8239;? Peut-on ressusciter un meuble à partir de l’ombre qu’il a laissée sur le mur ? De quoi aurait l’air une chambre où seraient entremêlées toutes les histoires de couples dont elle a été le théâtre&#8239;?</p>
-                <p><i>Voilà quelques-unes des questions que nous souhaitons poser</i> à travers ce projet d’interventions artistiques et plastiques vouées à disparaître avec la démolition de l’immeuble. </p>
-            </div>
-
-            <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">le Collectif</p>
-                <p>Cet événement est né de la volonté très humaine de ne pas disparaître. Devant l’inéluctable, des créateurs ont décidé d’investir l’immeuble autour d’une thématique construite collectivement.</p>
-                <p>Avec des approches, des inspirations et issue de milieux très différents, <i>une équipe de peintres, de dessinateurs, de graphistes, de photographes, d’architectes, d’urbanistes, de plasticiens et de performeurs</i> s’est réunie pour évoquer ensemble les traces de notre passage avant que le vent de la modernité ne les disperse.</p>
-            </div>
+{% include expo-process.html %}
 
 
-
-            <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-                <p class="title alt-color uppercase">Avec Notamment:</p>
-                <p><ul class="list-inline">
-                    <div class="intervenant"><a href="{{ '/artistes/P15.html' | absolute_url }}" class="text-white">Aline Bovard Rudaz</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P04.html' | absolute_url }}" class="text-white">Arthur de Buren</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P09.html' | absolute_url }}" class="text-white">Claire de Buren</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P33.html' | absolute_url }}" class="text-white">Clélia Vuille</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P02.html' | absolute_url }}" class="text-white">Delphine Burtin</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P34.html' | absolute_url }}" class="text-white">Emilie Gafner</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P15.html' | absolute_url }}" class="text-white">Fahny Baudin</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P26.html' | absolute_url }}" class="text-white">Flavio Visalli</a></div>
-                    <div class="intervenant"><a href="{{ '/fiches-artistes.html' | absolute_url }}" class="text-white">Francis Schneiter</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P06.html' | absolute_url }}" class="text-white">Gaëlle Vejlupek</a></div>
-                    <div class="intervenant"><a href="{{ '/fiches-artistes.html' | absolute_url }}" class="text-white">Gionibek Kudaibergen</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P35.html' | absolute_url }}" class="text-white">Inso Mundo</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P09.html' | absolute_url }}" class="text-white">Iris Visinand</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P09.html' | absolute_url }}" class="text-white">Jacqueline Schmid</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P04.html' | absolute_url }}" class="text-white">Jade Rudler</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P14.html' | absolute_url }}" class="text-white">Julie Bianchin</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P32.html' | absolute_url }}" class="text-white">Julien Woessner</a></div>
-                    <div class="intervenant"><a href="{{ '/fiches-artistes.html' | absolute_url }}" class="text-white">Kevin Banto</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P05.html' | absolute_url }}" class="text-white">Lucie Schaeren</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P33.html' | absolute_url }}" class="text-white">Marion Geisler</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P03.html' | absolute_url }}" class="text-white">Martin Gauthier</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P26.html' | absolute_url }}" class="text-white">Matteo Cortesi</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P09.html' | absolute_url }}" class="text-white">Monica Lombardi</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P13.html' | absolute_url }}" class="text-white">Natalia Gacic</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P14.html' | absolute_url }}" class="text-white">Océane Wannaz</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P08.html' | absolute_url }}" class="text-white">Peggy Jault</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P32.html' | absolute_url }}" class="text-white">Rachel Gotheil</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P17.html' | absolute_url }}" class="text-white">Sabine Oppliger</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P21.html' | absolute_url }}" class="text-white">Sébastien Martinet</a></div>
-                    <div class="intervenant"><a href="{{ '/fiches-artistes.html' | absolute_url }}" class="text-white">Shing-tak liu</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P19.html' | absolute_url }}" class="text-white">Murzo</a></div>
-                    <div class="intervenant"><a href="https://sonnsone.ch/" class="text-white">Stéphane Geiser</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P02.html' | absolute_url }}" class="text-white">Tami Hopf</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P08.html' | absolute_url }}" class="text-white">Véronique Martinet</a></div>
-                    <div class="intervenant"><a href="{{ '/artistes/P01.html' | absolute_url }}" class="text-white">Wiktoria Bosc</a></div>
-                    <ul></p>
-                </div>
-            </div>
-
-        </div>
-    </div>
+</div>

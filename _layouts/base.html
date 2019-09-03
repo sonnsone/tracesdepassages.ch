@@ -39,69 +39,17 @@
     <div class="container mrgt">
 
         <header>
-            <div class="grid grid--bottom grid--center">
-                <div class="text-center mrgr"><h1 class="vertical vertical--border title uppercase">un projet éphémère</h1></div>
-                <div class="text-center mrgl"><h1 class="vertical vertical--border title uppercase">d'interventions artistiques</h1></div>
-            </div>
+            {% include logo-info.html %}
 
-            <div class="grid grid--center">
-                <div class="w-3/4 sm-w-3/4 md-w-1/2 lg-w-1/3 grid__item">
-                    <a href="{{ '/' | absolute_url }}"><img class="logo img-responsive" src="{{ '/files/logo-white.png' | absolute_url }}" alt="Logo Traces de Passages" title="Logo Traces de Passages"></a>
-                </div>
-            </div>
+            {% include navigation.html %}
 
+            {% include expo-info.html %}
 
-            <div class="grid grid--top grid--center">
-                <div class="text-center mrgr"><h1 class="vertical vertical--border title uppercase">dans un immeuble centenaire</h1></div>
-                <div class="text-center mrgl"><h1 class="vertical vertical--border title uppercase">voué à la démolition</h1></div>
-            </div>
-
-            <div class="grid grid--center mrgt++">
-                <div class="w-3/4 sm-w-3/4 md-w-1/2 lg-w-1/3 grid__item">
-                    <table class="text-center align-center">
-                        <thead>
-                            <tr>
-                                <th><a href="{{ '/batiment.html' | absolute_url }}"><img class="picto img-responsive align-center" src="{{ '/files/picto/batiment.png' | absolute_url }}"></a></th>
-                                <th><a href="{{ '/fiches-artistes.html' | absolute_url }}"><img class="picto img-responsive align-center" src="{{ '/files/picto/artistes.png' | absolute_url }}"></a></th>
-                                <th><a href="{{ '/presse.html' | absolute_url }}"><img class="picto img-responsive align-center" src="{{ '/files/picto/presse.png' | absolute_url }}"></a></th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td class="uppercase"><a href="{{ '/batiment.html' | absolute_url }}">Le plan</a></td>
-                                <td class="uppercase"><a href="{{ '/fiches-artistes.html' | absolute_url }}">Les artistes</a></td>
-                                <td class="uppercase"><a href="{{ '/presse.html' | absolute_url }}">La presse</a></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-        </div>
-
-            <div class="grid grid--center mrgt+">
-                <div class="sm-w-1/1 md-w-1/2 lg-w-1/3 grid__item mrgt">
-                    <div class="box box--default">
-                        <p class="title alt-color uppercase">Vernissage</p>
-                        <p>Vendredi 6 septembre dès 17h</p>
-                    </div>
-                </div>
-
-                <div class="sm-w-1/1 md-w-1/2 lg-w-1/3 grid__item mrgt">
-                    <div class="box box--default">
-                        <p class="title uppercase"><a href="{{ '/fiches-artistes.html' | absolute_url }}" class="alt-color">Exposition et interventions</a></p>
-                        <p>Du 7 au 22 septembre 2019 de 10h à 19h</p>
-                        <p>Rue du Simplon 26, 1006 Lausanne</p>
-                    </div>
-                </div>
-
-            </div>
         </header>
 
         {{ content }}
 
-        <footer class="grid grid--center mrgt++">
-            <a href="https://andco.ch" target="_blank"><div class="grid__item w-1/6 text-center"><p class="btn btn--primary btn--small">designed by Studio andco</p></div></a>
-        </footer>
-
+        {% include footer.html %}
 
     </div>
 

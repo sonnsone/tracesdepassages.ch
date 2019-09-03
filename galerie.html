@@ -1,0 +1,16 @@
+---
+layout: pages
+fiche: files/galerie
+---
+
+<div class="grid grid--center mrgt+">
+
+    {% for image in site.static_files %}
+        {% if image.path contains page.fiche %}
+        <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
+                <img class="img-responsive" src="{{ image.path | absolute_url }}" alt="{{ page.name }}" title="{{ page.name }}"/>
+        </div>
+        {% endif %}
+    {% endfor %}
+
+</div>
