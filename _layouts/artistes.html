@@ -14,21 +14,27 @@ layout: pages
 
     <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
         <div class="box box--default mrgt+">
-                <p class="title alt-color uppercase">{{ page.nomprojet }}</p>
-                <p class="alt-color">{{ page.sousnom }}</p>
-                <p class="title uppercase">{{ page.lieux }}</p>
-            </ul>
-            <p>{{ page.projet }}</p>
-        </div>
+            <p class="title alt-color uppercase">{{ page.nomprojet }}</p>
+            <p class="alt-color">{{ page.sousnom }}</p>
+            <p class="title uppercase">{{ page.lieux }}</p>
+        </ul>
+        <p>{{ page.projet }}</p>
     </div>
+</div>
+
+<div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
+    <div class="box box--default">
+        <div class="video-container"><iframe width="100%" height="100%" src="{{ page.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    </div>
+</div>
 
 
 {% for image in site.static_files %}
-    {% if image.path contains page.fiche %}
-    <div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
-            <img class="img-responsive" src="{{ image.path | absolute_url }}" alt="{{ page.name }}" title="{{ page.name }}"/>
-    </div>
-    {% endif %}
+{% if image.path contains page.fiche %}
+<div class="sm-w-1/1 md-w-1/2 lg-w-1/2 grid__item mrgt">
+    <img class="img-responsive" src="{{ image.path | absolute_url }}" alt="{{ page.name }}" title="{{ page.name }}"/>
+</div>
+{% endif %}
 {% endfor %}
 
 </div>
