@@ -10,9 +10,9 @@ logo: tile.png
 seo:
     type: Business
 
-street: "Rue du Simplon 26"
+street: "Av. Riant-Mont 12"
 city: "Lausanne"
-zip: "1006"
+zip: "1004"
 state: "Vaud"
 country: "Suisse"
 latitude: "46.235885"
@@ -20,7 +20,7 @@ longitude: "7.3578723"
 tel: "078 635 59 66"
 
 social:
-  name: Traces de Passages
+  name: CO Sébastien Martinet
   links:
 
 twitter:
