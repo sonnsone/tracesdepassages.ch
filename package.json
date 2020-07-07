@@ -9,6 +9,6 @@
     "kanbasu": "^2.0.0"
   },
   "dependencies": {
-    "npm": "^6.9.0"
+    "npm": "^6.14.6"
   }
 }
